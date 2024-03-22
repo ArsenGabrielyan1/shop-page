@@ -1,0 +1,36 @@
+.btn{
+  width: 50px;
+  border-radius: 24%;
+  padding: 1em;
+  margin-left: 10px; 
+  top: -12px;
+}
+
+.delete-item{
+  margin-left: 171px;
+  width: 130px;
+  height: 30px;
+  color:red;
+  position: relative;
+  top: -13px;
+ 
+}
+
+.count{
+  font-size: 30px;
+}
+
+.buy-prdouct{
+  display: inline;
+  margin-left: 80px;
+
+}
+
+.buy-prdouct button{
+  width: 130px;
+  height: 30px;
+  color: green;
+  position: relative;
+  margin-left: 110px;
+top: -50px;
+}

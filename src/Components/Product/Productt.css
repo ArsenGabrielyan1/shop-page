@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+background-color: blue;
+max-width: 1300px;
+}
+
+.box{
+background-color: #000000;
+width: 32vh;
+height:78vh;
+margin: 10px;
+padding: 20px;
+box-shadow: 2px 2px 10px white;
+float: left;
+margin-left: 40px;
+top: 20px;
+}
+
+h5{
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: small;
+}
+
+img{
+width: 180px;
+height: 180px;
+object-fit: contain;
+}
+
+p{
+  color: #fff;
+ font-size: small;
+}
+
+.btn button{
+position: relative;
+width: 170px;
+padding: 12px 0;
+text-align: center;
+font-size: 20px;
+border: 1px solid #fff;
+background: transparent;
+color: white;
+cursor: pointer;
+overflow: hidden;
+}
+
+@media screen and (max-width:1334px){
+ .box{
+  margin-left: 90px;
+}}
+@media screen and (max-width:1150px){
+  .box{
+  margin-left: 110px;
+}}
+@media screen and (max-width:815px){
+.box{
+  margin-left: 250px;
+}}
+@media screen and (max-width:630px){
+  .box{
+    margin-left: 110px;
+}}
+  
+  @media screen and (max-width:420px){
+    .box{
+      margin-left: 20px;
+  }}
+    
+
+
