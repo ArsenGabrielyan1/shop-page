@@ -1,9 +1,18 @@
-.btn{
-  width: 50px;
-  border-radius: 24%;
-  padding: 1em;
-  margin-left: 10px; 
-  top: -12px;
+.btn-pluss{
+width: 30px;
+height: 30px;
+border-radius: 10%;
+position: relative;
+top: -15px;
+}
+
+.btn-minus{
+width: 30px;
+height: 30px;
+border-radius: 10%;
+position: absolute;
+margin-top: -10px;
+
 }
 
 .delete-item{
@@ -13,17 +22,22 @@
   color:red;
   position: relative;
   top: -13px;
- 
-}
+ }
 
 .count{
   font-size: 30px;
+  top: -10px;
 }
 
 .buy-prdouct{
   display: inline;
   margin-left: 80px;
+}
 
+.images-images{
+  width: 130px;
+  height: 130px;
+  padding: 1em;
 }
 
 .buy-prdouct button{
@@ -31,6 +45,17 @@
   height: 30px;
   color: green;
   position: relative;
-  margin-left: 110px;
-top: -50px;
+  margin-left: 92px;
+  top: -50px;
+}
+
+@media screen and (max-width:692px){
+.buy-prdouct button{
+  margin-left: 30px;
+}
+
+.delete-item{
+  margin-left: 109px;
+}
+
 }

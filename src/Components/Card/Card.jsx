@@ -14,7 +14,7 @@ const Card = () => {
   <p
     style={{
     position: "absolute",
-    top: "120px",
+    top: "210px",
     left: "127px",
     fontSize: "28px",
     }} >

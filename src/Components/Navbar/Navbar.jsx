@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Card from "../Card/Card";
 import "./Navbar.css";
-
+import { CiShoppingCart } from "react-icons/ci";
 import { AiOutlineAlignRight } from "react-icons/ai";
 
 export default function Navbar() {
@@ -26,7 +26,12 @@ export default function Navbar() {
   <ul className="list">
         <li><a href="#"> Home</a></li>
     <div className="button" onClick={handleClick}>
-        <li><button>Cart</button></li>
+        <li><button> <CiShoppingCart
+            style={{
+              color: '#ffffff',
+               width:'65px'
+            }}/></button>
+        </li>
     </div>
   </ul>  
 </div>

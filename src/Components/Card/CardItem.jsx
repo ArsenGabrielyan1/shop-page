@@ -17,34 +17,27 @@ const CardItem = ({ elem }) => {
     dispatch({ type: "REMOVE_FROM_CART", payload: elem.id })
   }
 
-const handleBuy = () =>{
-  setTimeout(() => {
-alert("sorry this product has already sold !")
-  },2000)
-}
-
   return (
     <div>
       <div id="products"> 
         <div className="Products"> 
-          <p>id: {elem.id}</p> 
           <p>name:{elem.name}</p>
           <p>price:{elem.price}$</p>
           <p>total price for this item:{elem.costByCount}$</p>
           <p>category:{elem.category} </p>
           <div className="images">
-           <img src={elem.image} />
+           <img src={elem.image}  className="images-images"/> 
           </div>
         </div>
       </div>
       <div>
         <button onClick={handleDelete}  className="delete-item">delete</button>
       </div>
-      <button onClick={handleAdd} className="btn">+</button>
+      <button onClick={handleAdd} className="btn-pluss" >+</button>
     <span className="count">{elem.count}</span>  
-      <button onClick={handleMinus} className="btn">-</button>
+      <button onClick={handleMinus} className="btn-minus">-</button> <hr />
       <div className="buy-prdouct">
-        <button onClick={handleBuy}>Buy</button>
+        <button>Buy</button>
       </div>
     </div>
   )

@@ -5,6 +5,7 @@ align-items: center;
 justify-content: space-between;
 background-color:#000;
 padding: 15px;
+/* margin: 15px; */
 }
 
 .Navbar  a {
@@ -21,7 +22,7 @@ margin-left: 50px;
 .list{
   list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 10px;
 }
 
 #toogler,
@@ -31,7 +32,7 @@ margin-left: 50px;
 
 .button button {
 position: relative;
-width: 100px;
+width:105px;
 font-size: 20px;
 background: transparent; 
 color: #fff;
@@ -40,15 +41,17 @@ cursor: pointer;
 }
 
 .active {
-  width: 500px;
-  min-height: 488px;
-  position: absolute;
-  top: 170px;
-  background: rgb(182, 178, 178);
+  width: 410px;
+  height: 360px;
+   position: absolute;
+  top: 80px;
+  background:#fcfcfc;
   z-index: 5;
-  left: 878px;
+  padding: 1em;
   display: block;
   border-radius: 1%;
+  border:  1px solid #000;
+  overflow-y: scroll;
 }
 
 .hide-card {
@@ -62,6 +65,7 @@ cursor: pointer;
   background: gray;
   top: 400px;
   left: 193px;
+
 }
 
 @media screen and (max-width:741px){
@@ -80,34 +84,29 @@ padding: 20px;
   align-items: center;
   cursor: pointer;
 }
-
 #toogler:checked ~ .menu{
 max-height: 100%;
-
-}
-}
-
-
-@media screen and (max-width:1410px){
-.active{
-  margin-left: -800px;
 }}
 
-@media screen and (max-width:631px){
+
+@media screen and (max-width:1301px){
+.active{
+  width: 380px;
+}}
+
+@media screen and (max-width:843px){
   .active{
-    margin-left: -800px;
-    width: 440px;
-    min-height: 400px;
+    width: 330px;
+    margin-top: 78px;
   }}
 
-  @media screen and (max-width:550px){
+  @media screen and (max-width:692px){
     .active{
-      margin-left: -840px;
-      width: 400px;
-    }}
-
-    @media screen and (max-width:460px){
-      .active{
-        margin-left: -880px;
-        width: 380px;
-      }}
+    width:  300px ;    
+}}
+  
+@media screen and (max-width:511px){
+  .active{
+  width: 270px;    
+left: 1px;
+}}

@@ -1,7 +1,7 @@
 import { useState, useEffect, createContext, useReducer } from "react"
 import axios from "axios";
 import Navbar from "./Components/Navbar/Navbar";
-import Products from "./Components/products/Products"
+import Products from "./Components/Products/Products"
 
 export const GlobalStateContext = createContext()
 
